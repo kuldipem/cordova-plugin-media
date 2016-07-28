@@ -69,6 +69,11 @@ Media.get = function(id) {
     return mediaObjects[id];
 };
 
+// "static" function to return existing objs.
+Media.getAll = function() {
+    return mediaObjects;
+};
+
 /**
  * Start or resume playing audio file.
  */
